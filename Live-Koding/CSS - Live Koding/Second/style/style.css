@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 450;
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.name {
+    color: rgba(2, 2, 122, 0.432);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.images {
+    margin-top: 15px;
+    width: 450px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(78, 128, 129, 0.829);
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.letter {
+    line-height: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+ 
+.content{
+    background-image: url("../picture/Background.jpg");
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+.kimi {
+    text-decoration: underline;
+}
+
+.first {
+    text-indent: 50px;
+}
+
+.second {
+    text-indent: 50px;
+}
+
+.third {
+    text-indent: 50px;
+}

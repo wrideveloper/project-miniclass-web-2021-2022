@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 450;
+    font-style: normal;
+    text-align: center;
+}
+
+.name {
+    color: rgb(255, 38, 67);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.images {
+    height: auto;
+    width: auto;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.letter {
+    line-height: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.kimi {
+    text-decoration: underline;
+}
+
+.first {
+    text-indent: 50px;
+}
+
+.second {
+    text-indent: 50px;
+}
+
+.third {
+    text-indent: 50px;
+}
