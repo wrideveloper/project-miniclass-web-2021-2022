@@ -1,0 +1,32 @@
+body {
+    background-image: url('b.jpeg');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(36, 34, 32, 0.685);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+img {
+    height: 250px;
+    margin margin-top: 20px;
+}
+#sejarah {
+    background-color: rgba(238, 178, 178, 0.897);
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 3px grey; 
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-indent: 30px;
+}
+.link{
+    text-align: center;
+}
