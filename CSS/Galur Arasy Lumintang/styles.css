@@ -1,0 +1,138 @@
+:root {
+  --primary: #0f044c;
+  --secondary: #141e61;
+  --tertiary: #787a91;
+  --quaternary: #eeeeee;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: var(--primary);
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+header img {
+  width: 200px;
+  height: 60px;
+}
+
+ul.navigation {
+  display: flex;
+  list-style: none;
+}
+
+ul.navigation * {
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+ul.navigation li:hover {
+  transform: translateY(0.2rem);
+}
+
+.container {
+  padding: 1rem;
+}
+
+section.pengumuman {
+  padding: 1rem;
+}
+
+.pengumuman .bar {
+  border-left: 0.3rem solid var(--primary);
+  padding-left: 1rem;
+  padding: 0.5rem;
+}
+
+.pengumuman .bar .title {
+  color: var(--primary);
+}
+
+.pengumuman .bar .title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.pengumuman .date {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.pengumuman .bar a {
+  transition: all 0.3s;
+}
+
+.pengumuman .bar a:hover {
+  color: var(--primary);
+}
+
+main {
+  padding: 1rem;
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+section h1 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+section.visimisi ul li {
+  margin-left: 1rem;
+  line-height: 1.6;
+}
+
+section.visimisi .header {
+  font-weight: bold;
+  color: var(--secondary);
+  margin: .4rem 0;
+}
+
+footer {
+  background-color: var(--primary);
+  padding: 2rem;
+}
+
+footer h4 {
+  color: var(--quaternary);
+}
+
+.shadow {
+  box-shadow: 1px 2px 5px grey;
+}
+
+.border-radius-2 {
+  border-radius: 2px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: var(--quaternary);
+}
+
+a:hover {
+  cursor: pointer;
+}
