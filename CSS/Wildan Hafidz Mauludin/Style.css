@@ -1,0 +1,33 @@
+div.main{
+
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(red, green, blue);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+img{
+    height: 280px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#content{
+    background-color: rgb(229, 255, 0);
+    margin: 30px 45px 30px 45px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 2px grey;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-indent: 25px;
+}
+.link{
+    text-align: center;
+}
