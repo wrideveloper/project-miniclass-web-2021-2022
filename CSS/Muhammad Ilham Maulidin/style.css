@@ -1,0 +1,43 @@
+.judul h1{
+  text-align: center;
+  color: brown;
+}
+
+.paragraf p{
+  color: blueviolet;
+}
+
+body{
+ background-image: url(./img/kevin-jiner-g9T-35bqJBA-unsplash.jpg);
+ background-position: top;
+}
+
+img{
+  box-sizing: border-box;
+  width: 300px;
+  height: 450px;
+  margin: 50px;
+  border: 2px solid red;
+
+}
+
+.tabel h3{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tabel li,td{
+  font-weight: 550;
+  padding: 5px;
+}
+
+.tabel table{
+ border-style: solid;
+ border-radius: 15px;
+ 
+}
+
+.link a{
+  font-size: 20px;
+  
+}
