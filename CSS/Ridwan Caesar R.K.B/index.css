@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    color: lightgray;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    margin-bottom: 30px;
+}
+p {
+    font-size: 25px;
+    font-weight: 350;
+    text-align: center;
+}
+img {
+    align-items: center;
+    border-style: solid;
+    border-width: 7px;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+.fasilitas  {
+    background-image: url(background.jpg);
+    border: solid;
+    border-color: lightgray;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.keunggulan {
+    display: inline-block;
+    background-image: url(background.jpg);
+    border: solid;
+    border-color: lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 15px;
+}
+table {
+    background-image: url(background.jpg);
+}
+tr,th {
+    padding: 10px;
+}
+
+form {
+    line-height: 15px;
+}
