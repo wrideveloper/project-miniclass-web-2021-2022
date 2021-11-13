@@ -1,0 +1,25 @@
+body{
+    background-image: url(vNCl7E.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
+.bodi{
+    margin-top: 50;
+    background-color: rgba(73, 70, 70, 0.4)
+}
+a{
+    color: cyan;
+}
+.tabel{
+    background-color: rgba(73, 70, 70, 0.8);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.image{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
