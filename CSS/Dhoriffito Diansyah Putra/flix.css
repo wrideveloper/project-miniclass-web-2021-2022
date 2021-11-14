@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    color:yellow;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: justify;
+    font-size: 17px;
+}
+li{
+    color : white;
+}
+.aboutUs{
+    padding: 10px;
+	color: white;
+	margin: auto;
+    background:orange;	
+}
+footer{
+    color :white;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+table{
+    color: white;
+}
+.tayang{
+    color: white;
+    text-align:center;
+}
+marquee{
+    color: white;
+}
+.login{
+    color: white;
+}
+form{
+    color: white;
+}
+
+
+
