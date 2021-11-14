@@ -1,0 +1,50 @@
+body {
+    background-image: url('WhatsApp-Image-2018-11-16-at-18.57.57.jpeg');
+    background-repeat: repeat;
+}
+.main{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(190, 142, 235);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+img {
+    height:250px;
+    margin-top:20px;
+}
+#content {
+    background-color: #e5e5e5;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-indent: 30px;
+
+}
+.link {
+    text-align: center;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(190, 142, 235);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
