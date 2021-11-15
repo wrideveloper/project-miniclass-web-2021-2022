@@ -1,0 +1,23 @@
+h1{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+h2{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+p{
+    text-indent: 50px;
+}
+.pertama{
+    background-color: pink;
+}
+.content{
+    background-image: url("backg.jpg");
+    margin-top: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 20px;
+}
