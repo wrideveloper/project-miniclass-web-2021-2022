@@ -1,0 +1,53 @@
+body{
+    padding: 100px;
+    background-image:linear-gradient(-20deg, #32C1CD 0%, #694);
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
+ul {
+    margin-left: -45px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+.container {
+    width: 800px;
+    height: 520px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+.img {
+    background-image: url(ilham.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: #2F86A6;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color:#6B4F4F;
+}
+p{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: #6D8299;
+}
