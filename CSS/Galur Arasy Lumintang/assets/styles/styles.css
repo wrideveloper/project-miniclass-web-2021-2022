@@ -19,12 +19,22 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 header img {
-  width: 200px;
+  width: 220px;
   height: 60px;
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    padding: 1.5rem;
+    justify-content: center;
+  }
+  header img {
+    display: none;
+  }
 }
 
 ul.navigation {
@@ -33,9 +43,12 @@ ul.navigation {
 }
 
 ul.navigation * {
-  margin-right: 1rem;
   text-decoration: none;
   transition: all 0.2s;
+}
+
+ul.navigation *:not(:last-child) {
+  margin-right: 1rem;
 }
 
 ul.navigation li:hover {
@@ -78,6 +91,67 @@ section.pengumuman {
   color: var(--primary);
 }
 
+.galeri__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.galeri__container figure {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  height: 15rem;
+  width: 27rem;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.galeri__container figure img {
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.galeri__container figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: all 0.2s;
+}
+
+.galeri__container figure figcaption {
+  color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 120%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+
+.galeri__container figure:hover::after {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+  transform: scale(1.05);
+}
+
+.galeri__container figure:hover img {
+  transform: scale(1.05);
+}
+
+.galeri__container figure:hover figcaption {
+  top: 50%;
+  z-index: 2;
+  color: black;
+}
+
 main {
   padding: 1rem;
 }
@@ -91,8 +165,12 @@ section {
 }
 
 section h1 {
+  display: inline-block;
+  position: relative;
   color: var(--primary);
   margin-bottom: 1rem;
+  transition: all 0.2s;
+  border-bottom: 2px solid var(--primary);
 }
 
 section.visimisi ul li {
@@ -103,7 +181,7 @@ section.visimisi ul li {
 section.visimisi .header {
   font-weight: bold;
   color: var(--secondary);
-  margin: .4rem 0;
+  margin: 0.4rem 0;
 }
 
 footer {
