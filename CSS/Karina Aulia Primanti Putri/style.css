@@ -1,0 +1,92 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fea904;
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f3e6d4;
+    text-align: justify;
+    text-transform: none;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fea904;
+    text-align: left;
+    text-transform: capitalize;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fea904;
+    text-align: left;
+    text-transform: capitalize;
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fea904;
+    text-align: left;
+    text-transform: capitalize;
+}
+i{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f3e6d4;
+    text-align: justify;
+    text-transform: none;
+}
+a{
+    color: #f3e6d4;
+}
+body{
+    background-color: #a11212;
+}
+table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f3e6d4;
+    text-align: left;
+    text-transform: none;
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: normal;
+    color: #f3e6d4;
+    text-align: left;
+    text-transform: none;
+    border-style: solid;
+    border-color: #f3e6d4;
+}
+img {
+    height: 200px;
+    width: 300px;
+    align-items: center;
+  }
+div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+  
