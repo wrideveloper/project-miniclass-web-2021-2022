@@ -1,0 +1,49 @@
+body {
+    background-image: url(bg2.jpg);
+    background-repeat: repeat;
+}
+.main {
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: rgb(56, 56, 56);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+img {
+    height: 400px;
+    margin-top: 20px;
+}
+
+#content {
+    background-color: #aec6cf;
+    margin: 30px 60px 30px 60px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 2px black;
+    
+}
+
+p {
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+ul{
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 17px;
+}
+
+.link {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
