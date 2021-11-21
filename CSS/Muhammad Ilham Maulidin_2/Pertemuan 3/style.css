@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(img/jacob-rubich-mgYkxS9z7yI-unsplash.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+header h2{
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+
+}
+
+.nav-area{
+  list-style: none;
+}
+
+.nav-area li{
+  display: inline-block;
+  padding: 0px 15px;
+  text-transform: uppercase;
+
+}
+
+.nav-area li a{
+  transition: .3s;
+  color:white;
+}
+
+.nav-area li a:hover{
+  color: salmon;
+}
+.btn-area{
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: salmon;
+}
