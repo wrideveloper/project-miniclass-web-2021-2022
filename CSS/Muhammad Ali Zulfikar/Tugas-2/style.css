@@ -1,0 +1,118 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(35,39,69,255);
+}
+
+/* Make navigation content */
+.navbar-nav {
+  background-color: #2d3257;
+  width: 100%;
+}
+
+.navbar-nav ul {
+  /* Make content in right with flex */
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.navbar-nav ul li {
+  /* Make content in right with flex */
+  list-style: none;
+  margin-left: 10px;
+  padding: 0 10px;
+  font-size: 18px;
+  /* Strecth flex */
+
+}
+
+.navbar-nav ul li a {
+  display: flex;
+  border-radius: 50px;
+  padding: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav ul li a:hover {
+  background-color: bisque;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.navbar-nav img {
+  width: 110px;
+}
+
+.navbar-nav ul li input {
+  border-radius: 5px;
+  width: 300px;
+  height: 28px;
+  border: none;
+  padding: 0 10px;
+}
+
+/* Search button */
+.navbar-nav ul li button {
+  background-color: #272c4d;
+  border-radius: 100%;
+  padding: 5px;
+  color: white;
+  border: none;
+}
+
+footer {
+  background-color: #2d3257;
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+  font-style: none;
+}
+
+
+.title {
+  font-size: 23px;
+  text-align: center;
+  margin: 15px;
+  color : white;
+}
+
+.isi-web {
+  display: flex;
+  justify-content: center;
+}
+
+.daftar-courses {
+  /* Make rectangle */
+  background-color: #f5f5f5;
+  width: 20%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.daftar-courses h3 {
+  padding: 10px;
+}
+
+.daftar-courses p {
+  display: flex;
+  border-radius: 20px;
+  padding:26px;
+  background-color: rgba(245, 245, 245, 1);
+}
