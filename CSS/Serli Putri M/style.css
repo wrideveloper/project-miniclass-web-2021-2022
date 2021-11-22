@@ -1,0 +1,71 @@
+body{
+    background-image: url('bg.jpeg');
+    background-repeat: repeat;
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 3px grey; 
+}
+.navbar{
+    background-color: lightsalmon;
+    display: flex;
+    color: rgb(230, 200, 165);
+    justify-content: flex-start;
+    padding: 5px;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+}
+.navbar-item{
+    margin-left: 25px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(36, 34, 32, 0.685);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(36, 34, 32, 0.685);
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+img {
+    height: 250px;
+    margin margin-top: 20px;
+}
+#sejarah{
+    background-color: rgb(248, 242, 184);
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    border-radius: 25px;
+}
+#logo{
+    background-color: rgb(248, 242, 184);
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    border-radius: 25px; 
+}
+#Produk{
+    background-color: rgb(248, 242, 184);
+    margin: 30px 50px 30px 50px;
+    padding: 20px;
+    border-radius: 25px; 
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-indent: 30px;
+}
+ul{
+    background-color: lightsalmon;
+    display: inline-block;
+}
+.link{
+    text-align: center;
+}
