@@ -1,0 +1,87 @@
+.logo{}
+.konten{}
+.sidebar{}
+.side{}
+.footer{}
+
+body{
+	width :90%;
+	margin: 30px;
+
+}
+main {
+  display: flex;
+}
+.logo,
+.konten,
+.sidebar,
+.web,
+.uiux,
+.game,
+.mobile
+.jgon,
+.footer {
+  margin-bottom: 3px;
+  padding: 19px 0;
+}
+.logo {
+  width: 100%;
+ color:white;
+font-size: 48pt;
+  background:orange ;
+  
+  
+
+}
+.konten {
+  width: 60%;
+  position: center;
+  align-content: flex-start;
+
+
+}
+.web,
+.uiux,
+.game,
+.mobile{
+  background-image: url("bg.jpg");
+  width: auto;
+}
+
+
+.inl {
+  background-color:orange;
+  border : 1px solid black;
+}
+.inl1 {
+  background-color:orange;
+  border : 1px solid black;
+}
+
+.inl2 {
+  background-color:orange;
+  border : 1px solid black;
+}
+.inl3 {
+  background-color:orange;
+  border : 1px solid black;
+}
+
+
+.sidebar {
+  width: 20%;
+  color:orange;
+  text-align: left;
+}
+.jgon{
+  width: auto;
+  background: #FFFAF0;
+  color:orange;
+
+}
+.footer {
+  width: auto;
+  color:orange;
+  background: orange;
+  text-align: center;
+}
