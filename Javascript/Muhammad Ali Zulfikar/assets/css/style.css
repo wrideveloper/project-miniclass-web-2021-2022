@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+/* Logo Size top left corner */
+.Logo img {
+    width: 100px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .Logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 40px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+    text-align: justify;
+
+}
+
+.content .textBox h2 {
+    color: #333;
+    font-size: 4em;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+
+.content .textBox h2 span {
+    color: midnightblue;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p {
+    color: #333;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: midnightblue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.canon {
+    width: 600px;
+    display: flex; 
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.canon:hover {
+    transform: translateY(-10px);
+}
+
+.canon img {
+    max-width: 400px;
+}
+
+.canon img:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    width: 20px;
+}
+
+.thumbnail li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.thumbnail:hover li {
+    transform: translateY(-10px);
+}
+
+.textBox button {
+    /* Remove button design */
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    background-color: thistle;
+    border-radius: 40px;    
+    padding: 10px;
+    width: auto;
+}
+
+.loginContent {
+    position: relative;
+    padding: 300px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.loginContent input[type="text"], .loginContent input[type="password"] {
+    width: 400px;
+    padding:20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.loginContent input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: midnightblue;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.loginContent input[type="submit"]:hover {
+    background: darkgreen;
+}
+
+.loginContent h1 {
+    color: midnightblue;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
