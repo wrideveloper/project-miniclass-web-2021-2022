@@ -1,0 +1,36 @@
+<html>
+  <head>
+      <title>Belajar Event</title>
+  </head>
+  <body>
+      <p>onclick</p>
+      <button onclick="alert('event click terjadi')">Tekan saya</button>
+
+      <br>
+      <p>onkeypress</p>
+      <input type="text" onkeypress="alert('hallo! ini pakai onkeypress')" />
+
+      <br>
+      <p>onchange</p>
+      <input onchange="console.log('halo, ini pakai onchange')" />
+
+      <br>
+      <p>onload</p>
+      <img src="wri.png" onload="alert('gambar dimuat')" width="100" height="132">
+
+      <br>
+      <p>onkeydown</p>
+      <input type="text" onkeydown="alert('hallo. ini pakai onkeydown')" />
+
+      <br>
+      <p>onkeyup</p>
+      <input type="text" onkeyup="alert('hallo. ini pakai onkeyup')" placeholder="onkeyup" />
+
+      <br>
+      <p>onsubmit</p>
+      <form onsubmit="alert('data sudah terkumpul')">
+        Enter name: 
+        <input type="text">
+        <input type="submit">
+  </body>
+</html>
