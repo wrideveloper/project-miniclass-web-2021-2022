@@ -1,18 +1,34 @@
+body{
+    background-color: #21839a;
+    background-repeat: repeat;
+}
+.main{
+    background-color: #f4efe5;
+    border-radius: 50px;
+    margin: 80px;
+    padding: 10px;
+}
+#content{
+    background-color: #9f414b;
+    margin: 50px 70px 50px 70px;
+    padding: 40px;
+    border-radius: 50px;
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
-    color: #fea904;
+    color: #21839a;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalize; 
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     font-weight: lighter;
     font-style: normal;
-    color: #f3e6d4;
+    color: #f4efe5;
     text-align: justify;
     text-transform: none;
 }
@@ -21,8 +37,8 @@ h2{
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
-    color: #fea904;
-    text-align: left;
+    color: #f4efe5;
+    text-align: center;
     text-transform: capitalize;
 }
 h3{
@@ -30,8 +46,8 @@ h3{
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
-    color: #fea904;
-    text-align: left;
+    color: #9f414b;
+    text-align: center;
     text-transform: capitalize;
 }
 li{
@@ -39,7 +55,7 @@ li{
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
-    color: #fea904;
+    color: #f4efe5;
     text-align: left;
     text-transform: capitalize;
 }
@@ -48,22 +64,19 @@ i{
     font-size: 14px;
     font-weight: lighter;
     font-style: normal;
-    color: #f3e6d4;
+    color: #f4efe5;
     text-align: justify;
     text-transform: none;
 }
 a{
     color: #f3e6d4;
 }
-body{
-    background-color: #a11212;
-}
 table{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     font-weight: lighter;
     font-style: normal;
-    color: #f3e6d4;
+    color: #f4efe5;
     text-align: left;
     text-transform: none;
 }
@@ -72,21 +85,36 @@ form{
     font-size: 14px;
     font-weight: lighter;
     font-style: normal;
-    color: #f3e6d4;
-    text-align: left;
+    color: #9f414b;
+    text-align: center;
     text-transform: none;
-    border-style: solid;
-    border-color: #f3e6d4;
 }
 img {
     height: 200px;
-    width: 300px;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-div {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 80px;
-    margin-left: 80px;
+.input{
+    display: block;
+    background-color: #f4efe5;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 50px 70px 50px 70px;
 }
-  
+.wisata{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+    background-color: #21839a;
+}
+.wisata > div{
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
