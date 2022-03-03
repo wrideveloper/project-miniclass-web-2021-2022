@@ -6,7 +6,7 @@ Nama        : Ali Zulfikar
 Angkatan    : 9
 Miniclass   : Web
 
-1. `INSERT INTO anggota (nama_anggota, no_telpon, angkatan, miniclass) VALUES ('Ali Zulfikar', '08999805050', 9, 1);`
+1. `INSERT INTO anggota (nama_anggota, no_telpon, angkatan, miniclass) VALUES ('Ali Zulfikar', '0878123456789', 9, 1);`
 
 2. `INSERT INTO anggota (nama_anggota, no_telpon, angkatan, miniclass) VALUES ('Fauzan', '', 9, 1);`
 
