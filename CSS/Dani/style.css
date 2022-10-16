@@ -1,0 +1,10 @@
+.box-red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
