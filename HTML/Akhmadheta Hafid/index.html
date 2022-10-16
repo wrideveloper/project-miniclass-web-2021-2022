@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="input" id="input" />
+
+    <button type="submit" id="input_submit" onclick="showoutput()">
+      Validate
+    </button>
+    <p id="output"></p>
+  </body>
+
+  <script>
+    function showoutput() {
+      var input = document.getElementById("input").value;
+      var output = document.getElementById("output");
+
+      var array = Array.from(input);
+
+      var num = [];
+
+      array.forEach(numcheck);
+
+      function numcheck(item) {
+        var angka = parseInt(item);
+        if (!isNaN(angka)) {
+          num.push(angka);
+        }
+      }
+
+      if (num.length != 0) {
+        output.innerHTML =
+          "Sistem kami menolak untuk inputan berisi angka " + num.join("");
+      } else {
+        output.innerHTML =
+          "Sistem memeriksa data anda valid dengan ketentuan kami dengan inputan " +
+          input;
+      }
+    }
+  </script>
+</html>
